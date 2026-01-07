@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DPRIME</title>
+    <title>SDG</title>
     <!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
     <link rel="stylesheet" href="css/lib/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,49 +17,83 @@
             <div class="container">
                 <div class="header__topsection">
                     <div class="row align-items-center">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-sm-4 col-6">
                             <a href="index.html" class="header__logo">
                                 <img src="img/header/logo.svg" alt="logo">
                             </a>
                         </div>
-                        <div class="col-lg-9 text-end">
+                        <div class="col-lg-9 col-sm-8 col-6 text-end">
                             <a href="#" class="darkblue-btn">
                                 Get in Touch
                                 <img src="img/general/button-arrow.svg" alt="icon">
                             </a>
                         </div>
                     </div>
+                    <div class="header__burger">
+                        <button class="burger burger2"><span></span></button>
+                    </div>
                 </div>
                 <div class="header__nav">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Autonomic™</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </nav>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Autonomic™</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                            <a href="#" class="darkblue-btn mobile-show">
+                                Get in Touch
+                                <img src="img/general/button-arrow.svg" alt="icon">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social-list">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/linkedin.svg" alt="linkedin">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/fb.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/instagram.svg" alt="instagram">
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
+
         <main class="main">
             <div class="herosection herosection_main">
                 <img class="herosection__img" src="img/main/hero.png" alt="hero">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <p class="subsecttitle">Where biology meets technology</p>
-                            <h1 class="white">
-                                Connecting mind and body through data
-                            </h1>
-                            <p>
-                                As a research-driven company, SDG provides psychophysiology and biosignal intelligence
-                                to
-                                uncover mind–body patterns that empower people to make better decisions, perform at
-                                their best,
-                                and sustain long-term well-being
-                            </p>
-                            <a href="#" class="blue-btn">Get in Touch</a>
+                        <div class="col-lg-6 col-md-8 col-sm-10">
+                            <div class="wrapper">
+                                <p class="subsecttitle">Where biology meets technology</p>
+                                <h1 class="white">
+                                    Connecting Mind and Body Through Data
+                                </h1>
+                                <p>
+                                    As a research-driven company, SDG provides psychophysiology and biosignal
+                                    intelligence
+                                    to
+                                    uncover mind–body patterns that empower people to make better decisions, perform at
+                                    their best,
+                                    and sustain long-term well-being
+                                </p>
+                                <a href="#" class="blue-btn">Get in Touch</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,13 +101,13 @@
 
             <div class="about-section">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5">
+                    <div class="row align-items-lg-center align-items-start">
+                        <div class="col-xl-5 col-md-6 order-2 order-md-1">
                             <div class="imgwrap">
                                 <img src="img/main/about-img.jpg" alt="img">
                             </div>
                         </div>
-                        <div class="col-xl-6 offset-xl-1">
+                        <div class="col-xl-6 offset-xl-1 col-md-6 order-1 order-md-2">
                             <div class="about-section__info">
                                 <p class="subsecttitle">About SDG</p>
                                 <h2>
@@ -100,9 +134,9 @@
 
             <div class="info-section info_autonomic-platform">
                 <div class="container">
-                    <div class="bordertop-wrapper">
+                    <div class="has-divider__top">
                         <div class="section-header">
-                            <h2>The AutonomicTM Platform</h2>
+                            <h2>The Autonomic™ Platform</h2>
                             <p>
                                 Our flagship platform uses scientifically validated methods to transform human
                                 physiology and behavior into objective insight. Designed for assessment, monitoring, and
@@ -111,24 +145,175 @@
                             </p>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <div class="imgwrap-border">
                                     <div class="imgwrap">
                                         <img src="img/main/automic-logo.png" alt="logo">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
-
+                            <div class="col-md-6">
+                                <div class="info-section__descr">
+                                    <h3>Autonomic™</h3>
+                                    <div class="descr">
+                                        <p>
+                                            Autonomic™ is a two-part system for understanding cognitive workload. A
+                                            brief,
+                                            customizable assessment establishes individual baseline profiles and
+                                            analytics,
+                                            while real-time monitoring captures physiological workload as it unfolds in
+                                            real-world settings
+                                        </p>
+                                    </div>
+                                    <a href="#" class="knowmore-link">
+                                        <span>Know More</span>
+                                        <img src="img/general/knowmore-arrow.svg" alt="icon">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="solutions">
+                <div class="container">
+                    <h3>Where Our Solutions are Used</h3>
+                    <div class="solutions__row">
+                        <div class="solutions__item">
+                            <img src="img/main/solution-icon1.svg" alt="icon">
+                            <h5>Military/Government</h5>
+                        </div>
+                        <div class="solutions__item">
+                            <img src="img/main/solution-icon2.svg" alt="icon">
+                            <h5>HR & Corporate Health</h5>
+                        </div>
+                        <div class="solutions__item">
+                            <img src="img/main/solution-icon3.svg" alt="icon">
+                            <h5>Wellness</h5>
+                        </div>
+                        <div class="solutions__item">
+                            <img src="img/main/solution-icon4.svg" alt="icon">
+                            <h5>High Performance Coaching</h5>
+                        </div>
+                        <div class="solutions__item">
+                            <img src="img/main/solution-icon5.svg" alt="icon">
+                            <h5>Research & Human Factors</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collaborate">
+                <div class="container">
+                    <p class="subsecttitle white">
+                        Let’s Work Together
+                    </p>
+                    <h2 class="white">Ready to Collaborate?</h2>
+                    <div class="descr">
+                        <p>
+                            Join us in shaping the future of mind-body research and applied psychophysiology.
+                            We will get back to you within 24 hours.
+                        </p>
+                    </div>
+                    <div class="btngroup">
+                        <a href="#" class="darkblue-btn">Get in Touch</a>
+                        <a href="#" class="white-btn">Explore Our Work</a>
+                    </div>
+                </div>
+                <div id="particles-js"></div>
+            </div>
+
         </main>
-        <footer class="footer"></footer>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__topsection">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-3">
+                            <div class="footer__logocol">
+                                <a href="#" class="footer__logo">
+                                    <img src="img/footer/logo-footer.svg" alt="logo">
+                                </a>
+                                <p>
+                                    In collaboration with pioneers in science and wellness.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 offset-xl-1 col-lg-2 col-sm-6">
+                            <ul class="footer__nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Autonomic™</a></li>
+                                <li><a href="#">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-sm-6">
+                            <ul class="footer__nav">
+                                <li><a href="index.html">Contact Us</a></li>
+                                <li>
+                                    <a class="soclink" href="mailto:hello@dprime.ai">
+                                        <img src="img/footer/mail-icon.svg" alt="email">
+                                        hello@dprime.ai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="soclink" href="tel:+1 212 555 4567">
+                                        <img src="img/footer/tel-icon.svg" alt="tel">
+                                        +1 212 555 4567
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 footer__subscribecol">
+                            <div class="footer__subscribe">
+                                <form action="#">
+                                    <div class="input-field">
+                                        <input type="email" placeholder="Your email address">
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                                <p>
+                                    By clicking submit, you'll receive updates from dprime.ai
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottomsection">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-sm-4">
+                            <div class="social-list">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/linkedin.svg" alt="linkedin">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/fb.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img src="img/general/instagram.svg" alt="instagram">
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <p>
+                                Copyright © 2025 <span>D-Prime LLC | All Rights Reserved</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 
