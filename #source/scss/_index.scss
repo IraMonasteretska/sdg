@@ -1,4 +1,3 @@
-
 // hero
 .herosection {
     min-height: 640px;
@@ -27,7 +26,7 @@
     }
 }
 
-.herosection_main {
+.herosection.herosection_main {
     h1 {
         font-size: 52px;
         margin-bottom: 32px;
@@ -225,14 +224,14 @@
 
 }
 
-#particles-js {
+.particles-js {
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
 }
 
-#particles-js {
+.particles-js {
     opacity: 0.6;
 }
 

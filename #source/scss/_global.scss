@@ -197,15 +197,15 @@ h3 {
 }
 
 .subsecttitle {
-    font-family: "satoshi";
-    color: #06ADCF;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 16px;
+    font-family: "satoshi" !important;
+    color: #06ADCF !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 16px !important;
 
     &.white {
-        color: #fff;
+        color: #fff !important;
     }
 }
 
@@ -275,7 +275,6 @@ h3 {
 
 
 
-
 @media(max-width:1399.8px) {
 
     h1 {
@@ -300,7 +299,7 @@ h3 {
     }
 
     .subsecttitle {
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
     }
 
 }
