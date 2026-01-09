@@ -1,0 +1,167 @@
+.contacts-section {
+    padding: 72px 0;
+    background: #E3F3FA;
+    border-top: 1px solid #DAEEF6;
+}
+
+.contacts__content {
+    width: 100%;
+    max-width: calc(100% - 423px);
+    flex: 0 0 calc(100% - 423px);
+    padding-right: 20px;
+
+    h1 {
+        margin-bottom: 26px;
+    }
+
+    p {
+        color: rgba(#04283D, 0.85);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.contacts__form {
+    width: 100%;
+    max-width: 423px;
+    flex: 0 0 423px;
+}
+
+.contacts__content-header {
+    margin-bottom: 64px;
+}
+
+.contactlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 110px;
+
+    li {
+        display: flex;
+        align-items: center;
+        margin-right: 64px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    img {
+        width: 100%;
+        max-width: 48px;
+        flex: 0 0 48px;
+    }
+
+    .descr {
+        width: 100%;
+        max-width: calc(100% - 48px);
+        flex: 0 0 calc(100% - 48px);
+        padding-left: 12px;
+    }
+
+    p,
+    a {
+        margin: 0;
+        color: #636A86;
+        font-family: "Heebo", sans-serif;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .name {
+        color: #242D5F;
+        font-weight: 600;
+    }
+
+    a {
+        transition: 0.3s;
+
+        &:hover {
+            color: #2B98D2;
+        }
+    }
+}
+
+.contacts-info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contacts-info__item {
+    width: 100%;
+    max-width: 29%;
+    flex: 0 0 29%;
+    margin-right: 30px;
+    padding-right: 20px;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+        padding-right: 0;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    &:nth-child(3) {
+         max-width: 30%;
+    flex: 0 0 30%;
+    }
+
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 127px;
+        background: #D7E2F8;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        color: rgba(#04283D, 0.85);
+        line-height: 140%;
+
+        a {
+            color: #2B98D2;
+            font-weight: 600;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 0;
+                height: 1px;
+                background: #2B98D2;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -4px;
+                transition: 0.3s;
+            }
+
+            &:hover {
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .title {
+        margin-bottom: 12px;
+        color: #054266;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
