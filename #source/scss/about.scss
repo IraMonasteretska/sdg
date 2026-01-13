@@ -61,6 +61,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 0 0 6px rgba(#000, 0.1);
 
     img {
         position: absolute;
@@ -216,6 +217,26 @@
                 padding-left: 5px;
                 padding-right: 5px;
             }
+        }
+    }
+
+    
+}
+
+@media(max-width:479.8px) {
+    .team-col {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .team__item {
+        height: 400px;
+        max-width: 300px;
+        margin: 0 auto 20px;
+
+        &>img {
+            position: relative;
+            vertical-align: top;
         }
     }
 }
